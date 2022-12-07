@@ -1,7 +1,7 @@
 // Your code here
 class Calculator{
-	constructor() {
-		this.total = 0
+	constructor(total = 0) {
+		this.total = total;
 	}
 
 	add(num){
